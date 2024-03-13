@@ -68,7 +68,7 @@ const Navbar = () => {
                     active === link.title
                       ? "text-white"
                       : "text-secondary"
-                  } hover:text-white text-[18px] font-medium cursor-pointer`}
+                  } font-poppins font-medium cursor-pointer text-[16px]`}
                 >
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
