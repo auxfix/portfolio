@@ -10,9 +10,9 @@ const Computers = () => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={1}
+      <hemisphereLight intensity={1.15}
         groundColor="black" />
-      <pointLight intensity={1.2} />
+      <pointLight intensity={1.25} />
       <primitive
         object={computer.scene}
         scale={0.75}
@@ -31,7 +31,6 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true}}
     >
-
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
