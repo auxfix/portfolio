@@ -20,7 +20,7 @@ const Computers = () => {
           castShadow 
           shadow-mapSize={[1024, 1024]}
         />
-        <pointLight intensity={1.25} /> 
+        <pointLight intensity={1.35} /> 
         <primitive
           object={computer.scene}
           scale={0.75}
