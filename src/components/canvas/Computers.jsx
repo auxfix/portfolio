@@ -24,7 +24,7 @@ const Computers = ({ isMobile }) => {
         <primitive
           object={computer.scene}
           scale={isMobile ? 0.48 : 0.75}
-          position={[0, -3.25, -1.5]}
+          position={isMobile ?[0, -2, -1.5]:[0, -3.25, -1.5]}
           rotation={[0, -0.2, -0.1]}
           material={new MeshPhongMaterial({ color: 0xffffff, shininess: 100 })}
         />
