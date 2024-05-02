@@ -23,8 +23,8 @@ const Computers = ({ isMobile }) => {
         <pointLight intensity={1.35} /> 
         <primitive
           object={computer.scene}
-          scale={isMobile ? 0.48 : 0.75}
           position={isMobile ?[0, -2, -1.5]:[0, -3.25, -1.5]}
+          scale={isMobile ? 0.54 : 0.75}
           rotation={[0, -0.2, -0.1]}
           material={new MeshPhongMaterial({ color: 0xffffff, shininess: 100 })}
         />
@@ -34,19 +34,28 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [isNarrowScreen, setIsNarrowScreen] = useState(false);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 650px)');
+    const mediaQueryHeight = window.matchMedia('(max-height: 720px)');
+    
     setIsMobile(mediaQuery.matches);
+    setIsNarrowScreen(mediaQueryHeight.matches);
 
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
     }
+    const handleHeightMediaQueryChange = (event) => {
+      setIsNarrowScreen(event.matches);
+    }
 
     mediaQuery.addEventListener('change', handleMediaQueryChange);
+    mediaQueryHeight.addEventListener('change', handleHeightMediaQueryChange);
 
     return  () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
+      mediaQueryHeight.removeEventListener('change', handleHeightMediaQueryChange);
     }
   }, []);
 
@@ -63,7 +72,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         /> 
-        <Computers isMobile={isMobile} />
+        <Computers isMobile={isMobile || isNarrowScreen} />
       </Suspense>
       <Preload all />
     </Canvas>
