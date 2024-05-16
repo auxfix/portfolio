@@ -7,10 +7,36 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 
+const ServiceCard = ({index}) => {
+  return (
+    <Title className="xs:w-[250px] w-full">
+      <motion.div
+        variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
+        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      >
+        <div
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450
+          }}
+          className='bg-tertiary rounded-[20px] 
+          py-5 px-12 min-h-[280px]'
+        >
+
+            
+        </div>
+
+      </motion.div>
+    </Title>
+  )
+}
+
+
 const About = () => {
   return (
     <>
-      <motion.div>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
           Introduction
         </p>
@@ -18,6 +44,26 @@ const About = () => {
           Overview
         </h2>
       </motion.div>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-scondary text-[17px]
+        max-w-3xl leading-[30px]'
+      >
+        Senior Frontend Developer, with more than 12 years of experience 
+        in working with top-notch technologies. I have a strong background 
+        in many areas such as back-end, front-end, desktop development, mobile, dev-ops, 
+        and even low-level programming. Always in a process of learning 
+        and getting new experience, I do not afraid of difficult tasks and sophisticated technologies 
+        but appreciate them as a new exciting challenge. 
+      </motion.p>
+      <div className='mt-20 flex flex-wrap gap-10'>
+        {
+          services.map((service, index) => (
+            <ServiceCard key={service.title}
+              index={index} {...service} />
+          ))
+        }
+      </div>
     </>
   )
 }
