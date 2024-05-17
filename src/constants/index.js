@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+    frontops,
     web,
     javascript,
     typescript,
@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
@@ -54,8 +54,8 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Front Ops",
+      icon: frontops,
     },
   ];
   
