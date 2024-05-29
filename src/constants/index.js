@@ -116,24 +116,27 @@ import {
   
   const experiences = [
     {
+      title: "Windows Desctop Developer",
+      company_name: "Mera",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Feb 2011 - Feb 2014",
+      points: [
+        "Sustaining and developing a windows based IP telephony client application.",
+        "Working in a big enterprise project.",
+        "Bugfix",
+        "Implementation of the new features",
+        "Working in 2 weeks sprints, with daily standups and weekly management report meetings.",
+        "Our application was a part of the big environment, consisting of many client and server-side applications, services, and teams supporting\\developing them. So this work included a big amount of communication and interaction with colleagues from these teams.",
+        "Working in a distributed international team, with headquarters in Canada.",
+      ],
+    },
+    {
       title: "React.js Developer",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
