@@ -132,7 +132,7 @@ import {
       ],
     },
     {
-      title: ".NET FULL STACK DEVELOPER",
+      title: ".NET Full Stack Developer",
       company_name: "Return On Intelligence",
       icon: starbucks,
       iconBg: "#383E56",
@@ -146,7 +146,7 @@ import {
       ],
     },
     {
-      title: ".NET FULL STACK DEVELOPER",
+      title: ".NET Full Stack Developer",
       company_name: "Taxcom",
       icon: shopify,
       iconBg: "#383E56",
@@ -163,16 +163,21 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Front End Developer",
+      company_name: "Artezio",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Feb 2016 - May 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Full cycle development of a series of b2c web applications.",
+        "Working in a small team, sometimes being the only person on the front-end side.",
+        "Choosing initial front-end framework and architecture.",
+        "Making HTML layouts according to the design or written requirements.",
+        "Writing a client-side business logic.",
+        "Writing client-side unit tests.",
+        "Sustaining already released applications.",
+        "Have been working with a variety of client-side frameworks and technologies, such as (jQuery, Knockout, AngularJS, Angular 2+, and React).",
+        "Participating in the company's experimental internal projects in the roles of Node.js back-end developer, and Mobile React-Native developer"
       ],
     },
   ];
