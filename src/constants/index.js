@@ -180,6 +180,44 @@ import {
         "Participating in the company's experimental internal projects in the roles of Node.js back-end developer, and Mobile React-Native developer"
       ],
     },
+    {
+      title: "Senior Front End Developer",
+      company_name: "Spiral Scout",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "Jun 2018 - Oct 2020",
+      points: [
+        "Development of the b2b web application.",
+        "Working in the big front-end team, doing a wide range of front-end tasks.",
+        "Implementing new features.",
+        "Analysing production crash reports and fixing bugs based on this information.",
+        "Writing unit tests.",
+        "Development of new components in the storybook so other developers could use them.",
+        "Helping colleagues from the back-end team with Node.JS related tasks/issues.",
+        "Working using the Scrum framework, with standard ceremonies but also with additional meetings for example weekly architecture meetings where we discussed topics such as technical debt, choosing technologies for the new features, revisiting current app architecture, and ways to improve it",
+        "Working in a big U.S.A-based startup, being a part of an international distributed agile team.",
+      ],
+    },
+    {
+      title: "Java-Script Senior Full Stack Developer",
+      company_name: "Airofit",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "NOV 2020 – Jul 2023",
+      points: [
+        "Working as a full-stack developer in a small agile team, doing a wide range of tasks on all levels on the application stack and at all stages of the development cycle",
+        "Developing react-native based, mobile applications.",
+        "Developing react/Next.js web applications.",
+        "Developing node.js web api.",
+        "Setting up and supporting dev-ops pipelines.",
+        "Setting up and supporting azure dev-ops infrastructure. Setting up dev and prod environments",
+        "Analyzing firebase crash reports and fixing bugs based on this information.",
+        "Deploying web applications to dev/prod environments.",
+        "Publish mobile applications in the Google Play and App Store.",
+        "Working on all stages of the development process, from the initial design and architecture to deploying the app to production and supporting it there.",
+        "Communication with other company departments such as marketing, sales, and support."
+      ],
+    },
   ];
   
   const testimonials = [
