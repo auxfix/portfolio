@@ -23,8 +23,8 @@ const Computers = ({ isMobile }) => {
         <pointLight intensity={1.35} /> 
         <primitive
           object={computer.scene}
-          position={isMobile ?[0, -2, -1.5]:[0, -3.25, -1.5]}
-          scale={isMobile ? 0.52 : 0.75}
+          position={isMobile ?[0, -3, -1.5]:[0, -3.25, -1.5]}
+          scale={isMobile ? 0.48 : 0.75}
           rotation={[0, -0.2, -0.1]}
           material={new MeshPhongMaterial({ color: 0xffffff, shininess: 100 })}
         />
