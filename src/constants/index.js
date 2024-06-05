@@ -17,12 +17,13 @@ import {
     docker,
     meta,
     starbucks,
-    tesla,
+    mera,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    roi,
   } from "../assets";
   
   export const navLinks = [
@@ -118,7 +119,7 @@ import {
     {
       title: "Windows Desctop Developer",
       company_name: "Mera",
-      icon: tesla,
+      icon: mera,
       iconBg: "#E6DEDD",
       date: "Feb 2011 - Feb 2014",
       points: [
@@ -134,8 +135,8 @@ import {
     {
       title: ".NET Full Stack Developer",
       company_name: "Return On Intelligence",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: roi,
+      iconBg: "#E6DEDD",
       date: "Feb 2014 - Dec 2014",
       points: [
         "Full circle agile development of asp.net-based internal corporate web service.",
