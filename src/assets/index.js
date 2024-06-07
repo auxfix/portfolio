@@ -27,6 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import mera from "./company/mera.png";
 import roi from "./company/roi.png";
+import taxcom from "./company/taxcom.png";
+import artezio from "./company/artezio.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -62,5 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  roi
+  roi,
+  taxcom,
+  artezio,
 };

@@ -16,14 +16,14 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
     mera,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
     roi,
+    taxcom,
+    artezio,
   } from "../assets";
   
   export const navLinks = [
@@ -149,8 +149,8 @@ import {
     {
       title: ".NET Full Stack Developer",
       company_name: "Taxcom",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: taxcom,
+      iconBg: "#E6DEDD",
       date: "Jan 2015 - Feb 2016",
       points: [
         "Developing and sustaining b2b asp.net-based web platform.",
@@ -166,7 +166,7 @@ import {
     {
       title: "Front End Developer",
       company_name: "Artezio",
-      icon: meta,
+      icon: artezio,
       iconBg: "#E6DEDD",
       date: "Feb 2016 - May 2018",
       points: [
