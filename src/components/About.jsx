@@ -45,7 +45,11 @@ const ServiceCard = ({index, icon, title}) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div 
+          initial='hidden'
+          whileInView={'show'}
+          variants={textVariant()}
+        >
         <p className={styles.sectionSubText}>
           Introduction
         </p>

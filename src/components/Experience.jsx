@@ -60,7 +60,11 @@ const ExperienceCard = ({ experience }) => (<VerticalTimelineElement
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div 
+         initial='hidden'
+         whileInView={'show'}
+         variants={textVariant()}
+        >
         <p className={styles.sectionSubText}>
           What I have done so far
         </p>
