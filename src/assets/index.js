@@ -29,6 +29,8 @@ import mera from "./company/mera.png";
 import roi from "./company/roi.png";
 import taxcom from "./company/taxcom.png";
 import artezio from "./company/artezio.png";
+import spiralScout from "./company/spiral-scout.png";
+import airofit from "./company/airofit.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -67,4 +69,6 @@ export {
   roi,
   taxcom,
   artezio,
+  spiralScout,
+  airofit,
 };

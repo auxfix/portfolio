@@ -24,6 +24,8 @@ import {
     roi,
     taxcom,
     artezio,
+    spiralScout,
+    airofit,
   } from "../assets";
   
   export const navLinks = [
@@ -184,7 +186,7 @@ import {
     {
       title: "Senior Front End Developer",
       company_name: "Spiral Scout",
-      icon: meta,
+      icon: spiralScout,
       iconBg: "#E6DEDD",
       date: "Jun 2018 - Oct 2020",
       points: [
@@ -202,7 +204,7 @@ import {
     {
       title: "Java-Script Senior Full Stack Developer",
       company_name: "Airofit",
-      icon: meta,
+      icon: airofit,
       iconBg: "#E6DEDD",
       date: "NOV 2020 – Jul 2023",
       points: [
