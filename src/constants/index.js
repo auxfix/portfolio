@@ -15,7 +15,6 @@ import {
     git,
     figma,
     docker,
-    meta,
     mera,
     carrent,
     jobit,
@@ -26,6 +25,7 @@ import {
     artezio,
     spiralScout,
     airofit,
+    leroyMerlin,
   } from "../assets";
   
   export const navLinks = [
@@ -202,11 +202,11 @@ import {
       ],
     },
     {
-      title: "Java-Script Senior Full Stack Developer",
+      title: "JavaScript Senior Full Stack Developer",
       company_name: "Airofit",
       icon: airofit,
       iconBg: "#E6DEDD",
-      date: "NOV 2020 – Jul 2023",
+      date: "Nov 2020 – Jul 2023",
       points: [
         "Working as a full-stack developer in a small agile team, doing a wide range of tasks on all levels on the application stack and at all stages of the development cycle",
         "Developing react-native based, mobile applications.",
@@ -219,6 +219,21 @@ import {
         "Publish mobile applications in the Google Play and App Store.",
         "Working on all stages of the development process, from the initial design and architecture to deploying the app to production and supporting it there.",
         "Communication with other company departments such as marketing, sales, and support."
+      ],
+    },
+    {
+      title: "Senior Front End Developer",
+      company_name: "Leroy Merlin",
+      icon: leroyMerlin,
+      iconBg: "#E6DEDD",
+      date: "Jul 2023 - NOW",
+      points: [
+        "Working in the big retail product company as a part of the core infrastructure team.",
+        "Support and development of the core micro-frontend framework used by the whole company's front-end department.",
+        "Development of the next-gen micro-frontend framework based on the Next.js/module-federation.",
+        "Support and development of the company's design system.",
+        "Development and support of the company's micro-frontend management self-service.",
+        "Participating in a big variety of the company’s meetings like: daily stand ups, plannings, architecture discussion and company's internal Dev community meet-ups.",
       ],
     },
   ];

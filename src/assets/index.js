@@ -31,6 +31,7 @@ import taxcom from "./company/taxcom.png";
 import artezio from "./company/artezio.png";
 import spiralScout from "./company/spiral-scout.png";
 import airofit from "./company/airofit.png";
+import leroyMerlin from "./company/leroy-merlin.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -71,4 +72,5 @@ export {
   artezio,
   spiralScout,
   airofit,
+  leroyMerlin,
 };
