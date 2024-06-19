@@ -26,6 +26,7 @@ import {
     spiralScout,
     airofit,
     leroyMerlin,
+    k18s,
   } from "../assets";
   
   export const navLinks = [
@@ -64,14 +65,6 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -100,21 +93,17 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
       icon: docker,
     },
+    {
+      name: 'kubernetes',
+      icon: k18s,
+    }
   ];
   
   const experiences = [
