@@ -27,6 +27,7 @@ import {
     airofit,
     leroyMerlin,
     k18s,
+    azure,
   } from "../assets";
   
   export const navLinks = [
@@ -85,6 +86,10 @@ import {
       icon: tailwind,
     },
     {
+      name: "Figma",
+      icon: figma,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -103,6 +108,10 @@ import {
     {
       name: 'kubernetes',
       icon: k18s,
+    },
+    {
+      name: 'azure',
+      icon: azure,
     }
   ];
   

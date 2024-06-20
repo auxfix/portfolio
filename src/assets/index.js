@@ -21,6 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import k18s from "./tech/k18s.png";
+import azure from "./tech/azure.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -75,4 +76,5 @@ export {
   airofit,
   leroyMerlin,
   k18s,
+  azure,
 };
