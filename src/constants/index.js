@@ -70,7 +70,7 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      name: "Type Script",
       icon: typescript,
     },
     {
@@ -82,7 +82,7 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
+      name: "Tailwind_CSS",
       icon: tailwind,
     },
     {
@@ -94,7 +94,7 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
+      name: "MongoDb",
       icon: mongodb,
     },
     {
