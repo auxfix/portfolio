@@ -105,14 +105,14 @@ import {
       name: "docker",
       icon: docker,
     },
-    {
+    /*{
       name: 'kubernetes',
       icon: k18s,
     },
     {
       name: 'azure',
       icon: azure,
-    }
+    }*/
   ];
   
   const experiences = [
