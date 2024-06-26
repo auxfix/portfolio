@@ -101,11 +101,11 @@ import {
       name: "git",
       icon: git,
     },
-    {
+    /*{
       name: "docker",
       icon: docker,
     },
-    /*{
+    {
       name: 'kubernetes',
       icon: k18s,
     },
