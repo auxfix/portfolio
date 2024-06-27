@@ -97,11 +97,11 @@ import {
       name: "MongoDb",
       icon: mongodb,
     },
-    {
+    /*{
       name: "git",
       icon: git,
     },
-    /*{
+    {
       name: "docker",
       icon: docker,
     },
