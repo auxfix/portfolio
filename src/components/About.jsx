@@ -62,7 +62,7 @@ const About = () => {
         className='mt-4 text-scondary text-[17px]
         max-w-3xl leading-[30px]'
       >
-        Senior Frontend Developer, with more than 12 years of experience 
+        Senior Fullstack Developer, with more than 12 years of experience 
         in working with top-notch technologies. I have a strong background 
         in many areas such as back-end, front-end, desktop development, mobile, dev-ops, 
         and even low-level programming. Always in a process of learning 
