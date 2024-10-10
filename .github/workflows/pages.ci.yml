@@ -5,6 +5,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+env:
+  PAGES_URL = ${{ vars.PAGES_URL }}
+environment: github-pages
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -20,10 +24,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    environment: github-pages
     runs-on: ubuntu-latest
-    env:
-      PAGES_URL = ${{ vars.PAGES_URL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
