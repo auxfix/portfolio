@@ -1,5 +1,5 @@
 
-name: Create and save Docker Package
+name: Create Docker Package
 
 on:
   # Allows you to run this workflow manually from the Actions tab
@@ -19,6 +19,7 @@ concurrency:
 
 jobs:
   build:
+    environment: docker-package
     runs-on: ubuntu-latest
 
     steps:
